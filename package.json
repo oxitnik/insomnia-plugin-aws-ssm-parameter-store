@@ -1,0 +1,14 @@
+{
+    "name": "insomnia-plugin-aws-ssm-parameter-store",
+    "description": "Insomnia template tag to retrieve parameters from AWS SSM Parameter Store",
+    "version": "0.1.0",
+    "repository": "https://github.com/oxitnik/insomnia-plugin-aws-ssm-parameter-store",
+    "main": "index.js",
+    "insomnia": {
+        "name": "aws-ssm-parameter-store",
+        "description": "Template tag to retrieve parameters from AWS SSM Parameter Store"
+    },
+    "dependencies": {
+        "@aws-sdk/client-ssm-node": "0.1.0-preview.6"
+    }
+}
