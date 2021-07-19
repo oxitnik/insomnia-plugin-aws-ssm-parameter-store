@@ -9,6 +9,6 @@
         "description": "Template tag to retrieve parameters from AWS SSM Parameter Store"
     },
     "dependencies": {
-        "@aws-sdk/client-ssm-node": "0.1.0-preview.6"
+        "@aws-sdk/client-ssm": "^3.22.0"
     }
 }
