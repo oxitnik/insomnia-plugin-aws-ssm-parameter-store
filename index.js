@@ -1,5 +1,4 @@
-const { SSMClient } = require("@aws-sdk/client-ssm-node/SSMClient");
-const { GetParameterCommand } = require('@aws-sdk/client-ssm-node/commands/GetParameterCommand');
+const { SSMClient, GetParameterCommand } = require("@aws-sdk/client-ssm");
 
 
 async function getParameterValue(client, paramName) {
